@@ -15,6 +15,14 @@ class DatasetCatalog(object):
             "img_dir": "coco/val2017",
             "ann_file": "coco/annotations/instances_val2017.json"
         },
+        "doclaynet_train": {
+            "img_dir": "/kaggle/input/doclaynet/PNG",
+            "ann_file": "/kaggle/input/doclaynet/COCO/train.json"
+        },
+        "doclaynet_val": {
+            "img_dir": "/kaggle/input/doclaynet/PNG",
+            "ann_file": "/kaggle/input/doclaynet/COCO/val.json"
+        },
         "coco_2014_train": {
             "img_dir": "coco/train2014",
             "ann_file": "coco/annotations/instances_train2014.json"
