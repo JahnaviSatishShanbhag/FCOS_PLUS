@@ -1,6 +1,7 @@
 MODEL:
   META_ARCHITECTURE: "GeneralizedRCNN"
-  WEIGHT: "catalog://ImageNetPretrained/MSRA/R-101"
+#   WEIGHT: "catalog://ImageNetPretrained/MSRA/R-101"
+  WEIGHT: ""
   RPN_ONLY: True
   FCOS_ON: True
   BACKBONE:
